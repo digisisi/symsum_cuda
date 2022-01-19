@@ -3,6 +3,7 @@
 - The implementation leverages the optimization described in the paper "Say Goodbye to Gradient Vanishing".
 - It achieves similar speed performance as Pytorch's built-in ReLU function.
 - See `symsum.py` for the Python wrappers.
+- As of now the implementation only works for 4D tensors (i.e. output of conv layer); not FC layers.
 
 # Installation
 Simply run:
